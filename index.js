@@ -18,10 +18,8 @@ function johnLennonFacts(array) {
 
   while (array.length < 0) {
     newArray.push(`${array[0]}!!!`)
-    console.log(newArray)
     array.shift()
   }
-  console.log(newArray)
   return newArray
 }
 
